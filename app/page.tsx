@@ -1,7 +1,14 @@
-import React from "react";
+import Hello from "@/components/hello";
+
+console.log("What type of a component am I?");
 
 const Home = () => {
-  return <div className="text-5xl undeline">Welcome to Next.js!</div>;
+  return (
+    <main>
+      <div className="text-5xl underline">Welcome to Next.js!</div>
+      <Hello />
+    </main>
+  );
 };
 
 export default Home;
